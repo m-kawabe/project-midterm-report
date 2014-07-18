@@ -1,0 +1,47 @@
+This is e-pTeX, Version 3.1415926-p3.3-110825-2.4 (utf8.sjis) (TeX Live 2012/W32TeX) (format=platex 2012.6.17)  19 JUL 2012 18:13
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**0-1.tex
+(./0-1.tex
+pLaTeX2e <2006/11/10>+0 (based on LaTeX2e <2011/06/27> patch level 0)
+Babel <v3.8m> and hyphenation patterns for english, german-x-2012-05-30, ngerma
+n-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabic, armenian, basque, bulg
+arian, catalan, pinyin, coptic, croatian, czech, danish, dutch, ukenglish, usen
+glishmax, esperanto, estonian, ethiopic, farsi, finnish, french, friulan, galic
+ian, german, ngerman, swissgerman, monogreek, greek, hungarian, icelandic, assa
+mese, bengali, gujarati, hindi, kannada, malayalam, marathi, oriya, panjabi, ta
+mil, telugu, indonesian, interlingua, irish, italian, kurmanji, latin, latvian,
+ lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portuguese, roma
+nian, romansh, russian, sanskrit, serbian, serbianc, slovak, slovenian, spanish
+, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, dumylang, nohyphen
+ation, loaded.
+
+! LaTeX Error: Environment jabstract undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{jabstract}
+                      %日本語の概要を書く。
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.1 \begin{jabstract}
+                      %日本語の概要を書く。
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+ 
+Here is how much of TeX's memory you used:
+ 7 strings out of 494055
+ 178 string characters out of 3159353
+ 52003 words of memory out of 3000000
+ 3532 multiletter control sequences out of 15000+200000
+ 7511 words of font info for 31 fonts, out of 3000000 for 9000
+ 745 hyphenation exceptions out of 8191
+ 5i,0n,4p,59b,16s stack positions out of 5000i,500n,10000p,500000b,50000s
+No pages of output.

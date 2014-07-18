@@ -1,0 +1,14 @@
+\begin{eabstract}
+% Abstract in English. 
+%\fake{you should write your English abstract in one page. }
+　In this project, we acquire the practical skill through experience to a develop business support system. As a theme of project, we develop software license management system. the project is continuing from the year before last in Future University Hakodate(FUN).　The aim of this project is effectively to prevent abuse of software licenses in FUN　by constructing a software license management system. 
+\\　In FUN, teachers manage software that is owned by their faculty office. Therefore, it is not doing university-wide management of situation of software 
+utilization. On the other hand,  the society demand proper utilization of software.  FUN have problem that effectively manage software license. For that reason, the 
+project develop a specific software license management system for effectively manage. 
+\\　 We introduce elements of play into business support system utilizing smartphones and cloud computing. In addition, we make the visualization of business. This project define that two point as future oriented.
+% 英文キーワード
+\begin{ekeyword}
+Business Ssupport,  Software License Management System, Smartphone,  Cloud Computing,  Future Oriented
+\end{ekeyword}
+\bunseki{前田実優}
+\end{eabstract}

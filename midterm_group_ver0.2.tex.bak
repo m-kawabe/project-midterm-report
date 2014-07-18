@@ -1,0 +1,237 @@
+% プロジェクト学習中間報告書書式テンプレート ver.1.0 (iso-2022-jp)
+
+% 両面印刷する場合は `openany' を削除する
+\documentclass[11pt,papersize]{jsbook}
+
+% 報告書提出用スタイルファイル
+%\usepackage[final]{funpro}%最終報告書
+\usepackage[middle]{funpro}%中間報告書
+
+% 画像ファイル (EPS, EPDF, PNG) を読み込むために
+\usepackage[dvipdfmx]{graphicx,color}
+
+% 機種依存文字を読み込むために
+%\usepackage{otf}
+
+% ここから -->
+\usepackage{calc,ifthen}
+\newcounter{hoge}
+\newcommand{\fake}[1]{\whiledo{\thehoge<70}{#1\stepcounter{hoge}}%
+  \setcounter{hoge}{0}}
+% <-- ここまで 削除してもよい
+
+% 年度の指定
+\thisYear{2014}
+
+% プロジェクト名
+\jProjectName{タブレットで創る観光・業務・教育の特効薬}
+
+% [簡易版のプロジェクト名]{正式なプロジェクト名}
+% 欧文のプロジェクト名が極端に長い（2行を超える）場合は、短い記述を
+% 任意引数として渡す。
+%\eProjectName[Making Delicious curry]{How to make delicious curry of Hakodate}
+\eProjectName[Design a region using ICT - System construction for client -]{Making killer apps of tablet device for tourism,
+\\business, and education}
+
+
+
+% <プロジェクト番号>-<グループ名>
+\ProjectNumber{2}
+
+% グループ名
+\jGroupName{グループB}
+\eGroupName{B Group}
+% プロジェクトリーダ
+\ProjectLeader{1012187}{諸原 聖}{Satoshi~Morohara}
+% グループリーダ
+\GroupLeader{1012067}{河辺 雅史}{Masashi~Kawabe}
+% メンバー数
+\SumOfMembers{3}
+% グループメンバ
+\GroupMember  {1}{1012076}{仲松 聡}{Satoshi~Nakamatsu}
+\GroupMember  {2}{1012178}{辻浦 崇大}{Takahiro~Tsujiura}
+\GroupMember  {3}{1012216}{佐々木 拓真}{Takuma~Sasaki}
+\newpage
+% 指導教員
+\jadvisor{伊藤 恵,奥野 拓,原田 泰}
+% 複数人数いる場合はカンマ(,)で区切る。カンマの前後に空白は入れない。
+\eadvisor{Kei~Ito,Taku~Okuno,Yasushi~Harada}
+
+% 論文提出日
+\jdate{2014年7月18日}
+\edate{July~18, 2014}
+
+\begin{document}
+% 表紙
+\maketitle
+
+%前付け
+\frontmatter
+
+% 和文概要
+%\input{midterm/0-1}
+
+%英語の概要
+%\input{midterm/0-2}
+
+\tableofcontents% 目次
+
+
+\mainmatter% 本文のはじまり
+
+\chapter{要約}
+%\begin{hissu}
+%該当分野の従来の状況、問題点、本プロジェクトで設定した課題、実施した解決策、
+%及び成果を簡潔に記述する。
+%\end{hissu}
+%\input{midterm/1}
+%\section{\midorfin{背景}{前期の成果}}
+%\input{midterm/1-1}
+%\section{目的}
+%\input{midterm/1-2}
+%\section{概要}
+%\input{midterm/1-3}
+
+
+
+
+\chapter{背景}
+\input{midterm/2}
+%この章では、ソフトウェアライセンス管理システム『名称未設定』の主な開発内容を述べる。\\
+\section{該当分野の現状・従来例}
+\input{midterm/2-1}
+\section{現状における問題点}
+\input{midterm/2-2}
+\section{課題の概要}
+\input{midterm/2-3}
+%\section{問題解決プロセス}
+%\input{midterm/2-4}
+%\section{成果}
+%\input{midterm/2-5}
+
+
+
+
+\chapter{到達目標}
+\section{本プロジェクトにおける目的}\label{sec:mokuteki}
+\input{midterm/3-1}
+\section{具体的な手順・課題設定}
+\input{midterm/3-2}
+\section{課題の割り当て}
+%\input{midterm/3-3}
+
+
+
+
+\chapter{課題解決のプロセス}
+\section{各人の課題の概要とプロジェクト内における位置づけ}
+\input{midterm/4-1}
+\section{担当課題解決過程の詳細}
+\input{midterm/4-2}
+\section{課題担当と他の課題の連携内容}
+\input{midterm/4-3}
+%\section{イベント}
+%\input{midterm/4-4}
+
+
+
+
+\chapter{結果}
+%\begin{hissu}
+%\ref{sec:gaiyou}~節で述べた課題をより具体的に記述する。
+%成果に対して必ず満たすべき条件を含む
+%\end{hissu}
+\section{プロジェクトの成果}
+\input{midterm/5-1}
+\section{成果の評価}
+\input{midterm/5-2}
+\section{担当分担課題の評価}
+\input{midterm/5-3}
+%\section{Subversion}
+%\input{midterm/5-4}
+%\section{テレビ会議}
+%\input{midterm/5-5}
+%\section{企業講師レビュー会}
+%\input{midterm/5-6}
+%\section{中間発表会}
+%\input{midterm/5-7}
+%\section{模擬開発}
+%\input{midterm/5-8}
+%\section{本開発}
+%\input{midterm/5-9}
+
+
+
+
+
+\chapter{今後の課題と展望}\label{sec:tejun}
+%\section{野外劇}
+\input{midterm/6-1}
+%\section{イベント}
+%\input{midterm/6-2}
+
+
+
+
+
+% 以降、付録(付属資料)であることを示す
+\begin{appendix}
+
+\chapter{新規習得技術}
+%\begin{hissu}
+%課題解決過程に習得した技術について解説する。
+%\end{hissu}
+\begin{itemize}
+\item Titanium Mobile
+\item JavaScript
+\item CakePHP
+\item TeX
+\item Adobe Illustrator CS6
+\item Subversion
+\item サイボウズLive
+\item WBS
+\end{itemize}
+
+\chapter{活用した講義}
+%\begin{hissu}
+%課題解決過程において活用した講義について、講義名・活用内容を記述する。 
+%\end{hissu}
+\begin{itemize}
+\item ソフトウェア設計論I
+\item ソフトウェア設計論II
+\item システム管理方法論
+\item アジャイルセミナー
+\item プリンタ講習会
+\item TeX講座
+\item 科学技術リテラシー
+\end{itemize}
+
+\chapter{相互評価}
+%\begin{hissu}
+%課題解決過程で分担し、連携した作業全般について、互いに客観的に評価する。 
+%\end{hissu}
+相互評価については、後期に行う。
+
+\chapter{その他製作物}
+%\begin{hissu}
+%その他成果物をプロジェクトの担当教員の指示に従って添付する。
+%\end{hissu}
+前期で付録にのせるべき製作物はできなかった。
+
+%付録の終わり
+\end{appendix}
+
+
+%\backmatter
+
+% 参考文献
+\begin{thebibliography}{16}
+% \bibitem {ラベル} 著者名. 書籍名. 出版社,  年号.
+% \bibitem {A2} ほげほげお. うんたらかんたら,  2003.
+ \bibitem {A1}「北海道庁、違法コピーでマイクロソフトにライセンス料金 1 億 4 千万円を支払う | スラッシュドット・ジャパン YRO」 ＜http://yro.slashdot.jp/story/09/11/16/0138224/＞ (2012/07/24)
+ \bibitem {A2}大森久美子,西原琢夫. ずっと受けたかったソフトウェアエンジニアリングの新人研修　開発現場編. 翔泳社, 2012.
+ \bibitem {A3}北尾雅人. Titanium Mobileで開発するiPhone/Android アプリ (Smart Mobile Developer). 翔泳社, 2011.
+ \bibitem {A4}掌田津耶乃. オープンソース徹底活用CakePHP1.3によるWebアプリケーション開発. 秀和システム, 2011.
+\end{thebibliography}
+
+\end{document}

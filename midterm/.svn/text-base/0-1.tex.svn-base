@@ -1,0 +1,11 @@
+\begin{jabstract} 
+%\fake{ここに日本語の概要を書きます。}
+日本語の概要を書く。
+
+% 和文キーワード
+キーワードをこの下に書く
+\begin{jkeyword}
+業務支援, ソフトウェアライセンス管理システム, スマートフォン, クラウド, 未来志向
+\end{jkeyword}
+\bunseki{ほげほげ}
+\end{jabstract}
